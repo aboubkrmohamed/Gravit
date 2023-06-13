@@ -1,0 +1,175 @@
+::selection {
+    color: #fff;
+    background: #a42422;
+}
+ .row
+ {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+ }
+ 
+ /***** logo ******/
+
+
+ .logo
+ {
+    padding:  13px ;
+ }
+
+ /******** left side *****/
+ .left-side
+ {
+    display: flex;
+ }
+
+img
+{
+    width: 30%;
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+
+.text 
+{
+    border-left: solid 2px #5ea09b;
+    padding-top: 20px;
+        padding-left: 10px;
+
+}
+.text span 
+{
+    font-size: 14px;
+}
+
+ /******** center side *****/
+ .center-side
+ {
+    padding-top: 12px;
+ }
+
+ .center-side h5
+ {
+    color: #0b6861;
+    font-size: 19px;
+    text-align: center;
+ }
+.center-side h4 
+{
+    color: #0b6861;
+    font-size: 16px;
+    text-align: center;
+}
+
+/***/
+.nav
+{
+      margin-top: 30px;
+      margin-left: 50px;
+}
+ .nav li
+ {
+    padding: 0px 6px;
+    font-size: 18px;
+    font-weight: 500;      
+    font-Family:"IBM Plex Sans Arabic";
+
+ }
+.nav li
+{
+    list-style: none;
+}
+.nav li a 
+{
+    color: #000;
+
+}
+.home i 
+{
+    color: #fff;
+    background-color: rebeccapurple;
+}
+ /******** right side *****/
+.right-side 
+{
+text-align: end;
+}
+.right-side img 
+{
+    padding-right: 25px;
+    width: 23%;
+}
+
+
+
+
+
+/*********** testimonials************/
+.multiple-items 
+{
+    margin:30px 105px 0 105px ;
+     border-top: 7px solid #cf7908 ;
+     background-color: #fff;
+}
+
+  
+.testimonials-item 
+{
+    text-align: center; 
+    border-right: solid 2px gray ;
+    margin-top:  12px;
+}
+.spicial 
+{
+    border: none;
+    
+}
+
+
+/***********alraaei************/
+
+
+.alraaei
+{
+    background-color:#f9f9f9;
+    padding-top: 65px;
+    position: relative;
+    top: -40px;
+    z-index: -1;
+}
+
+.poster img
+{
+    width: 100%;
+    display: block;
+}
+
+.article
+{
+    margin-top: 30px;
+text-align: end;
+}
+
+.article h3
+{
+    color: #00a090;
+    font-family: 'IBM Plex Sans Arabic' !important;
+    font-weight: 700;
+
+
+    font-size: 32px;
+  
+  }
+
+.article p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+    direction: rtl;
+
+}
+ 

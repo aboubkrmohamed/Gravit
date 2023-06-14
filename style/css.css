@@ -2,6 +2,10 @@
     color: #fff;
     background: #a42422;
 }
+*
+{
+    font-Family:"IBM Plex Sans Arabic";
+}
  .row
  {
     margin: 0;
@@ -172,4 +176,65 @@ text-align: end;
     direction: rtl;
 
 }
+ 
+.title-section h4
+{
+    direction: rtl;
+    text-align: right;
+    font-weight: 700 ;
+    color: #04645c;
+}
+.form 
+{
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    
+}
+.left-form h3
+{
+    color: #00a090;
+    font-family: 'IBM Plex Sans Arabic' !important;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 26px;
+}
+
+.left-form p 
+{
+    font-weight: 500;
+}
+
+.text
+{
+    border: none;
+    border-bottom: 1px saddlebrown solid;
+}
+ 
+ .Subscribe
+ {
+     padding: 10px 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+  .Subscribe:hover 
+  {
+    background-color: red;
+  }
+
+  .rightSide 
+  {
+    text-align: center;
+    padding-top: 25px;
+
+  }
+
+  .right-side h5
+  {
+    font-weight: 700;
+    font-family: 'IBM Plex Sans Arabic' !important;
+  }
  

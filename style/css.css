@@ -25,13 +25,14 @@ body
  .logo
  {
     padding:  13px ;
-    
+ 
  }
 
  /******** left side *****/
  .left-side
  {
     display: flex;
+    
  }
 
 img
@@ -78,7 +79,7 @@ img
     text-align: center;
     font-family: "IBM Plex Sans Arabic";
     font-weight: bolder;
-    line-height: 15px;
+    line-height: 25px;
  }
 .center-side h4 
 {
@@ -88,7 +89,11 @@ img
     font-family: "IBM Plex Sans Arabic";
     font-weight: bolder;
 }
-
+ .slick-dots
+{
+   background-color: red;
+opacity: 0;
+}
 /***/
 .nav
 {
@@ -429,6 +434,19 @@ text-align: end;
     line-height: 17px;
  }
  
+ 
+/*********** testimonials************/
+.multiple-items 
+{
+    margin:20px 45px 0 45px ;
+ }
+
+  
+.testimonials-item 
+{
+     margin-top:  10px;
+}
+ 
 
  }
 
@@ -509,7 +527,18 @@ img
         display: block;
         margin-top: 30px;
      }
-     
+     /*********** testimonials************/
+
+     .multiple-items 
+{
+    margin:20px 25px 0 25px ;
+ }
+
+  
+.testimonials-item 
+{
+     margin-top:  10px;
+}
    }
 
 
@@ -584,6 +613,24 @@ img
     
      }
 
+ 
+     
+     /*********** testimonials************/
+
+
+     .multiple-items 
+{
+    margin:0 ;
+ 
+
+ }
+
+  
+.testimonials-item 
+{
+     margin-top:  10px;
+     border-right: solid 1px gray ;
+ }
  
    }
 

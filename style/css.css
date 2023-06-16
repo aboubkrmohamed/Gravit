@@ -6,6 +6,12 @@
 {
     font-Family:"IBM Plex Sans Arabic";
 }
+body
+{
+    position: relative;
+    overflow: hidden;
+width: 100%;
+}
  .row
  {
     margin: 0;
@@ -174,10 +180,65 @@ img
     text-align: center;
 }
 
+.menue 
+{
+     height: 30px;
+}
+#show 
+{
+    color: #a42422;
+    cursor: pointer;
+    font-size: 15px;
+}
+#menuecontent
+{
+     position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #a42422;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    transition: all 0.7s;
+}
 
+.list-item
+{
+    list-style: none;
+    margin-top: 70px;
+}
+.items
+{
+     position: relative;
+     border-bottom: #fff 1px solid;
+     margin: 5px;
+     padding: 4px;
+}
+.items a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: "IBM Plex Sans Arabic";
+    font-weight: 590;
+    font-size: 12px;
+}
+.rightarrow
+{
+    width: 8px;
+     position: absolute;
+     top: -22px;
+     right: 10px;
+ }
 
-
-
+ #close
+ {
+    cursor: pointer;
+     position: absolute;
+     right:20px;
+     top: 10px;
+    }
+ 
+  
 /*********** testimonials************/
 .multiple-items 
 {
@@ -376,9 +437,12 @@ text-align: end;
  
 
 
-   /**************** media 992-768 *****************/
+   /**************** media 1000-768 *****************/
 
+   @media screen and (max-width:1300px)and (min-width:1000px)
+   {
 
+   }
 
 
 

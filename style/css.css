@@ -9,7 +9,7 @@
 body
 {
 
- overflow-X: hidden;
+ overflow-x: hidden;
 }
  .row
  {
@@ -196,15 +196,14 @@ img
 {
      position: fixed;
     top: 0;
-    left: 0;
+    left: 100%;
     bottom: 0;
     background-color: #a42422;
     width: 100%;
     height: 100%;
     z-index: 9;
     transition: all 0.7s;
-
-   }
+    }
 
 .list-item
 {
@@ -441,6 +440,35 @@ text-align: end;
 
    @media screen and (max-width:1000px)and (min-width:768px)
    {     
+ 
+img
+{
+    width: 40%;
+}
+
+.text 
+{
+     padding-top: 20px;
+        padding-left: 10px;
+
+}
+.history
+{
+    font-weight: 700;
+    Color:#0b6861
+}
+.empty
+{
+    margin-top: 10px;
+    background-color: #5ea09b;
+    width: 2px ;
+    height: 110px;
+}
+.text span 
+{
+    font-size: 11px;
+}
+
     
     .nav 
     {
@@ -451,21 +479,24 @@ text-align: end;
      {
         margin-top: 10px;
      }
-     
+    
      .logoLeft img 
      {
-        margin-left: 60px;
-        width: 40%;
+        margin-left: 10px;
+        width: 60%;
      }
      .logoLeft span 
     {
-        margin-left: 35px;
-         font-size: 11px;
+        margin-left: 5px;
+         font-size: 10px;
         line-height: 12px;
         color: #000;
     }
      
-    
+    .logoRight img
+    {
+        width: 80%;
+    }
      
     .logoRight span
     {
@@ -482,6 +513,79 @@ text-align: end;
    }
 
 
+   @media screen and (max-width:768px)
+
+   {
+    
+ .logo
+ {
+    padding:  0px ;
+    
+ }
+
+ /******** left side *****/
+ 
+img
+{
+    width: 20%;
+}
+
+.text 
+{
+     padding-top: 25px;
+ 
+}
+.nav 
+{
+    display: none;
+}
+ 
+     /******** right side *****/
+     .right-side
+     {
+        margin-top: 20px ;
+        
+     }
+    
+     .logoLeft img 
+     {
+        margin-left: 50%;
+         width: 17%;
+     }
+     .logoLeft span 
+    {
+          font-size: 9px;
+         display: block;
+         margin-left: 50%;
+         font-weight: bolder;
+    }
+     
+    .logoRight img
+    {
+        margin-right: 100%;
+        width: 26%;
+    }
+     
+    .logoRight span
+    {
+        margin-right: 60%;
+          font-size: 9px;
+        line-height: 17px;
+        font-weight: bolder;
+
+     }
+
+     #show 
+     {
+        display: block;
+        position: fixed;
+        right: 12px;
+        top: 10px;
+    
+     }
+
+ 
+   }
 
 
       /**************** media 768 >>>> *****************/

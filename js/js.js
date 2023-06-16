@@ -62,15 +62,21 @@ let close = document.getElementById("close");
 
 
 show.addEventListener("click", showside)
+AnimationEvent
 
 function showside() {
     menuecontent.style.left = "0";
+    menuecontent.style.opacity = "1";
  }
 
 
+ 
 
 close.addEventListener("click", closeSlide)
 function closeSlide() {
     menuecontent.style.left = "100%";
+    menuecontent.style.opacity = "0";
+
 
 }
+ 

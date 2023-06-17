@@ -19,15 +19,21 @@ body
     left: 0;
  }
  
+
  /***** logo ******/
 
 
  .logo
  {
     padding:  13px ;
- 
+    transition: all 1s;
  }
-
+ .action
+ {
+    background-color: #fff;
+    position: fixed;
+    z-index: 666;
+ }
  /******** left side *****/
  .left-side
  {
@@ -197,6 +203,14 @@ opacity: 0;
     cursor: pointer;
     display: none;
 }
+
+#show 
+{
+    position: fixed;
+   right: 12px;
+   top: 10px;
+
+}
 #menuecontent
 {
      position: fixed;
@@ -355,7 +369,7 @@ text-align: end;
  {
      padding: 10px 18px;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   .Subscribe:hover 
   {
@@ -380,7 +394,6 @@ text-align: end;
  @media screen and (max-width:1300px)and (min-width:1000px)
  {
  
-
  /******** center side *****/
   
 .nav
@@ -522,6 +535,12 @@ img
         line-height: 17px;
      }
 
+     
+.hidden
+{
+    display: none;
+}
+
      #show 
      {
         display: block;
@@ -610,8 +629,14 @@ img
         position: fixed;
         right: 12px;
         top: 10px;
+        
     
      }
+
+     .hidden
+{
+    display: none;
+}
 
  
      

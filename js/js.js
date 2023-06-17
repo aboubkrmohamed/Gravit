@@ -79,4 +79,59 @@ function closeSlide() {
 
 
 }
+
+
+// fixed navbar 
+
+function bgchange (){
+    let logo=document.getElementById('logo');
+    let scrollvalue=window.scrollY;
+     if(scrollvalue >200)
+    {
+        logo?.classList.add('action');
+
+    }
+    else 
+    {
+        logo?.classList.remove('action'); 
+    }
  
+  }
+  window.addEventListener('scroll',bgchange);
+
+  
+ // center side 
+
+  function centerSide (){
+    let  center=document.getElementById('center');
+    let scrollvalue=window.scrollY;
+     if(scrollvalue >200)
+    {
+        center?.classList.add('hidden');
+
+    }
+    else 
+    {
+        center?.classList.remove('hidden'); 
+    }
+ 
+  }
+  window.addEventListener('scroll',centerSide);
+
+  // right side 
+  
+  function rightSide (){
+    let  right=document.getElementById('right');
+    let scrollvalue=window.scrollY;
+     if(scrollvalue >200)
+    {
+        right?.classList.add('hidden');
+
+    }
+    else 
+    {
+        right?.classList.remove('hidden'); 
+    }
+ 
+  }
+  window.addEventListener('scroll',rightSide);
